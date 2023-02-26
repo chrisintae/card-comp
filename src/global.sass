@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap')
+
+:root
+    // ui colors
+    --cta-primary: #64bb46
+    --cta-primary-hover: #0aa200
+    --light-green: #62bb26
+    --turtle-green: #62bb46
+    --dark-green: #0f8a07
+    --action-error: #f73f3f
+    --hover-teal: #00586a
+    --success: #00dc8c
+    --error: #ff2044
+    --error-darkred: #ca0d0d
+    --clear: transparent
+    --form-box-shadow: 0 2px 4px 0 rgba(0,0,0,.1)
+    --body-light: #1c2f49
+    --drupal-red: #a51b00
+
+    // grayscale
+    --black: #000
+    --white: #fff
+    --very-light-gray: #f8f8f8
+    --light-gray: #b3b3b3
+    --dark-gray: #9e9e9e
+    --very-dark-gray: #5f5f5f
+    --very-very-dark-gray: #333
+    --slate: #666
+    --gray-ui: #506c8e
+    --gray-semi-ui: #828a97
+    --gray-med-ui: #ccd4dc
+    --gray-light-ui: #eff2f8
+    --gray-ultra-light: #f6f7fa
+    --surface-ultra-light: #fafcfc
+    --drupal-gray: #d3d4d9
+    --gray: #d8d8d8
+    --light-gray: #f2f2f2
+    --gray-texture: #eee
+    --gray-light: #e9e9ea
+    --gray-dark: gray
+    --solid-gray: #e8e8e8
+
+    // brand fonts
+    --ff-serif: "PT Serif", Georgia, serif
+    --ff-sans-serif: "Source Sans Pro", Arial, sans-serif
+    --ptserif-ff: "PT Serif", serif
+    --sourcesanspro-ff: "Source Sans Pro", sans-serif
+
+    // brand colors
+    --hero-purple: #4e2d82
+    --honey: #f3a61c
+    --peacock: #4db2ca
+    --orchid: #b4005b
+    --lite-purple: #9c28b1
+    --cream: #f2ecde
+    --forge-blue: #0466b4
+    --gray: #6d6e6f
+    --lime-green: #589c48
+
+    // brand color variations (non-opaque) 
+    --hero-purple-70: #8a79ac
+    --hero-purple-50: #aea2c4
+    --hero-purple-30: #cfc8dc
+    --hero-purple-15: #e6e3ee
+    --purple-int-100: #622fb4
+    --purple-int-70: #916dcb
+    --purple-int-50: #b097d9
+    --purple-int-30: #d0c1e9
+    --purple-int-15: #e7e0f4
+    --purple-int-10: #efeaf7
+    --lite-int-70: #ba69c8
+    --lite-int-50: #cd93d8
+    --lite-int-30: #e1bfe8
+    --lite-int-15: #f0dff3
+    --orchid-int-100: #de167c
+    --orchid-int-70: #e85ca3
+    --orchid-int-50: #ee8abd
+    --orchid-int-30: #f5b9d8
+    --orchid-int-15: #fadceb
+    --peacock-int-70: #8ccddd
+    --peacock-int-50: #acdbe6
+    --peacock-int-30: #cee9f0
+    --peacock-int-15: #e6f4f8
+    --lime-70: #89bb80
+    --lime-50: #a8cda2
+    --lime-30: #cce2c9
+    --lime-15: #e6f1e4
+    --honey-70: #f8c261
+    --honey-50: #f9d38e
+    --honey-30: #fce5bb
+    --honey-15: #fef2dd
+    --forge-int-100: #057bd9
+    --forge-int-70: #50a3e4
+    --forge-int-50: #82bdec
+    --forge-int-30: #b4d7f4
+    --forge-int-15: #daebf9
+    --grey-70: #9a9b9b
+    --grey-50: #b5b6b7
+    --grey-30: #d4d4d5
+    --grey-10: #f0f0f0
+    --cream-70: #f7f3e9
+    --cream-50: #f8f6ee
+    --cream-30: #fcfaf5
+    --cream-15: #fefdfb
+
+    // athena logo colors
+    --athena-purple: #582c83
+    --forest: #7a9a01
+    --spring: #b7bf10
+
+    // epocrates colors
+    --ruby: #a50050
+    --teal: #0093b2
+    --off-white: #f3f4f5
+    --salmon: #ff906b
+    --jellyfish-accent: #7ee1e8
+    --orange: #dd5546
+    --off-white-bg: EFF7FE
+    --teal-grad: #0093c6
+    --violet: #cda0ed
+    --jellyfish-bg: #d7fdff
+    --salmon-bg: #ffd2c9
+    --violet-bg: #f1e7fa
+    --success-bg: #d2ffef
+    --error-bg: #ffe0e8
+    --dark-teal: #00627c
+    --very-light-pink: #fdf3f3
+    --pale-purple: #f8f2ff
+    --shakespeare: #5ab7ce
+    --firefly: #102038
+    --lavender-grey: #cfc8dc
+    --grape-parfait: #8a79ac
+    --oslo-gray: #828a97
+    --blue-sapphire: #005b7a
+    --maastricht-blue: #06162d
+    --faux-maastricht-blue: #102037
+    --platinum-gray: #797979
+    --weathered-stone-grey: #c4c4c4
+    --dim-gray: #696969
+    --spanish-gray: #92929d
+    --ford-gray: #979797
+
+    // font sizes & line heights
+    --re-xxh-fs: 90px
+    --re-xxh-lh: 113px
+    --re-xh-fs: 110px
+    --re-xh-lh: 114px
+    --re-h1-fs: 80px
+    --re-h1-lh: 86px
+    --re-h2-fs: 60px
+    --re-h2-lh: 66px
+    --re-h3-fs: 46px
+    --re-h3-lh: 52px
+    --re-h4-fs: 36px
+    --re-h4-lh: 42px
+    --re-h5-fs: 31px
+    --re-h5-lh: 38px
+    --re-h6-fs: 25px
+    --re-h6-lh: 31px
+    --re-h1-m-fs: 40px
+    --re-h1-m-lh: 46px
+    --re-h2-m-fs: 36px
+    --re-h2-m-lh: 42px
+    --re-h3-m-fs: 32px
+    --re-h3-m-lh: 38px
+    --re-h4-m-fs: 31px
+    --re-h4-m-lh: 38px
+    --re-h5-m-fs: 31px
+    --re-h5-m-lh: 38px
+    --re-h6-m-fs: 25px
+    --re-h6-m-lh: 31px
+    --re-sh1-fs: 26px
+    --re-sh1-lh: 32px
+    --re-sh2-fs: 21px
+    --re-sh2-lh: 27px
+    --re-sh3-fs: 18px
+    --re-sh3-lh: 24px
+    --re-sh4-fs: 16px
+    --re-sh4-lh: 22px
+    --re-sh5-fs: 16px
+    --re-sh5-lh: 22px
+    --re-sh6-fs: 22px
+    --re-sh6-lh: 28px
+    --re-sh7-fs: 23px
+    --re-sh7-lh: 31px
+    --re-p1-fs: 19px
+    --re-p1-lh: 26px
+    --re-p2-fs: 17px
+    --re-p2-lh: 24px
+    --re-p3-fs: 15px
+    --re-p3-lh: 21px
+    --re-p4-fs: 12px
+    --re-p4-lh: 18px
+    --re-small-fs: 13px
+    --re-small-lh: 19px
+
+    // font weights
+    --fw-light: 300
+    --fw-regular: 400
+    --fw-semibold: 600
+    --fw-bold: 700
+    --fw-black: 900
+    --ptserif-reg-fw: 400
+    --ptserif-bold-fw: 700
+    --sspro-extralight-fw: 200
+    --sspro-light-fw: 300
+    --sspro-reg-fw: 400
+    --sspro-semibold-fw: 600
+    --sspro-bold-fw: 700
+    --sspro-black-fw: 900
